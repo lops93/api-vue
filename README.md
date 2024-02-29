@@ -2,28 +2,7 @@
 
 #### Overview:
 
-The ApiVue is a simple application designed to facilitate task management for users. It offers basic functionalities for creating, viewing, updating, and deleting courses from a list.
-
-### REST API Laravel:
-
-Routes for handling CRUD operations (Create, Read, Update, Delete) for courses.
-
-Controllers to process Models to represent task data in the database.
-
-Migrations to define the database structure.
-
-#### Vue.js Front-end:
-
-User interface for interacting with the API.
-
-Pages for displaying, creating, editing, and deleting courses.
-
-Reusable components for forms, course lists, etc.
-
-### MySQL Database:
-
-Stores information about courses, such as title, description, status, creation date, etc.
-Tables to represent task data.
+The Vue-Laravel Blog Application is a web-based platform aimed at facilitating blog management for users. It provides essential functionalities for creating, reading, updating, and deleting blog posts. The application is developed using Vue.js for the front-end, Laravel for the back-end API, and MySQL for the database.
 
 #### Technologies Used:
 
@@ -35,16 +14,10 @@ Axios: JavaScript library for making HTTP requests from Vue.js to the Laravel AP
 ## installation
 
 - clone the project
-
-#### rest-api folder
-
 - create .env file (change the APP_URL and configure database)
 - composer install
 - php artisan migrate --seed
 - php artisan key:generate
 - php artisan serve
-
-#### vue-rest-api folder
-
 - npm install
 - npm run dev
